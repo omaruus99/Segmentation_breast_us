@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Mon Application Flask</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        h1 {
+            font-size: 36px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mon Application Flask</h1>
+    </header>
+
+    <div class="container">
+        <h2>Bienvenue sur mon application Flask ! </h2>
+        <p>Cette application permet de tester votre modèle de segmentation de tumeurs sur des images de votre choix. </p>
+        <button style="padding: 10px 20px; background-color: #007BFF; color: #FFFFFF; border: none; border-radius: 5px; text-decoration: none; font-size: 16px; cursor: pointer; transition: background-color 0.3s ease;"><a href="/prediction" style="text-decoration: none; color: white;">Faire une prédiction</a></button>
+    </div>
+</body>
+</html>
